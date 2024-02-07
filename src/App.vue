@@ -17,7 +17,7 @@ export default {
     CarouselBlizz,
     Navegate,
 
-      }
+  }
 }
 </script>
 
