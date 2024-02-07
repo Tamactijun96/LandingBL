@@ -1,6 +1,6 @@
 <template>
     <div>
-        <nav class="navbar position-fixed navbar-expand-lg m-2 m-0">
+        <nav class="navbar  position-fixed navbar-expand-lg m-2 m-0">
             <div class="navbar-bg"></div>
             <!-- Contenido del navbar -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
@@ -73,7 +73,7 @@ export default {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #282d43ef;
+    background-color: #222639f2;
     filter: blur(0px);
     /* Aplicar el efecto blur al fondo */
     z-index: -1;

@@ -18,7 +18,7 @@
     <div class="tab-content" id="myTabContent">
       <div class="tab-pane fade show active" id="Pc" role="tabpanel" aria-labelledby="contact-tab">
         <div class="d-flex flex-wrap justify-content-start mt-5 ml-4">
-          <div class="card mr-3 mb-3" style="width: 18rem;" v-for="item of service" :key="item.id">
+          <div class="card mr-4 mb-3" style="width: 15rem;" v-for="item of service" :key="item.id">
             <img class="card-img-top" :src="item.image" alt="Card image cap">
             <div class="card-body">
               <h3 class="card-title">{{ item.nombre }}</h3>
@@ -80,7 +80,8 @@ ul.nav {
   background: url(../assets/bgnavs.webp) no-repeat center;
   background-size: cover;
   background-position: center;
-  height: 900px;
+
+  
 }
 
 a.nav-link {
@@ -120,10 +121,18 @@ h3.card-title {
 
 p.card-text {
   font-family: "Archivo", sans-serif;
-    color: rgba(208, 233, 255, 0.6);
+  color: rgba(208, 233, 255, 0.6);
+  
+  
 }
 
 div.card {
   background: none;
 }
+.card-img-top {
+  width: 15rem;
+  height: 18rem;
+  border-radius: 5px;
+}
+
 </style>
