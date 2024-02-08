@@ -3,6 +3,7 @@
   <CarouselBlizz></CarouselBlizz>
   <Navegate></Navegate>
   <Containers></Containers>
+  <Footer></Footer>
 </template>
 
 <script>
@@ -11,6 +12,7 @@ import HeaderBlizz from './components/Header.vue'
 import CarouselBlizz from './components/Carousel.vue'
 import Navegate from './components/Navs.vue'
 import Containers from './components/Containers.vue'
+import Footer from './components/footer.vue'
 
 
 export default {
@@ -20,6 +22,7 @@ export default {
     CarouselBlizz,
     Navegate,
     Containers,
+    Footer,
 
   }
 }

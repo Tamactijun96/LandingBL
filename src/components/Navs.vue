@@ -1,8 +1,8 @@
 <template>
-  <div class="test">
-    <ul class="nav nav-tabs justify-content-end" id="myTab" role="tablist">
+  <div class="navs">
+    <ul class="container nav nav-tabs justify-content-end" id="myTab" role="tablist">
       <li class="nav-item">
-        <a class="nav-link active" id="home-tab" data-toggle="tab" href="#Pc" role="tab" aria-controls="home"
+        <a class="nav-link " id="home-tab" data-toggle="tab" href="#Pc" role="tab" aria-controls="home"
           aria-selected="true">Pc</a>
       </li>
       <li class="nav-item">
@@ -14,8 +14,7 @@
           aria-selected="false">Móvil</a>
       </li>
     </ul>
-
-    <div class="tab-content" id="myTabContent">
+    <div class="container tab-content" id="myTabContent">
       <div class="tab-pane fade show active" id="Pc" role="tabpanel" aria-labelledby="contact-tab">
         <div class="d-flex flex-wrap justify-content-start mt-5 ml-4">
           <div class="card mr-4 mb-3" style="width: 15rem;" v-for="item of service" :key="item.id">
@@ -67,6 +66,7 @@ export default {
   }
 }
 
+
 </script>
 
 
@@ -76,12 +76,10 @@ ul.nav {
   padding-top: 30px;
 }
 
-.test {
+.navs {
   background: url(../assets/bgnavs.webp) no-repeat center;
   background-size: cover;
   background-position: center;
-
-  
 }
 
 a.nav-link {
@@ -122,17 +120,25 @@ h3.card-title {
 p.card-text {
   font-family: "Archivo", sans-serif;
   color: rgba(208, 233, 255, 0.6);
-  
-  
+  font-weight: 600;
+
+
 }
 
 div.card {
   background: none;
+  border: none;
 }
+
 .card-img-top {
   width: 15rem;
   height: 18rem;
   border-radius: 5px;
+  transition: 300ms ease-in-out;
 }
 
+.card-img-top:hover {
+  transform: scale(1.1);
+  transition: 300ms ease-in-out;
+}
 </style>

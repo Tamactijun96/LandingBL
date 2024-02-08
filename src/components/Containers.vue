@@ -2,10 +2,10 @@
     <div class="bg-main-container">
         <div class="card container text-white">
         <img class="card-img" src="../assets/Desktop.webp" alt="Card image">
-        <div class="card-img-overlay ">
+        <div class="card-img-overlay">
             <h5 class="card-title pt-5 mt-4">Descarga Launcher</h5>
             <p class="card-text">Todos los juegos de RoGWoW en un mismo sitio.</p>
-           <div class="pt-5 mr-5">
+           <div class="b-group pt-5 mr-5">
             <button class="btnBlizz1 mr-3">Descarga</button>
             <button class="btnBlizz2">Más información</button>
            </div>
@@ -33,6 +33,7 @@ div.card{
     padding-top: 75px;
     padding-bottom: 75px;
     background: none;
+    border: 1px solid green;
     
     
 }
@@ -45,9 +46,13 @@ div.card{
     font-size: 2.9rem;
     font-family: "Poppins", Arial, Helvetica, sans-serif;
     font-weight: 600;
+    border: 1px solid red;
+   
+    
 }
 
 .card-text{
+    border: 1px solid blue;
     color:hsla(0,0%,100%,.7);
     line-height: 1.4;
     margin: 0px;
@@ -55,9 +60,15 @@ div.card{
     font-weight: 500;
     margin-bottom: 4px;
     text-shadow: rgba(0, 0, 0, 0.3) 0px 4px 8px;
+   
+}
+.b-group{
+    border: 1px solid yellow;
 }
 
+
 .btnBlizz1{
+    
     text-align: center;
     align-items: center;
     color: #fff;
@@ -90,6 +101,7 @@ div.card{
     background: rgba(93, 113, 152, 0.651);
 }
 .btnBlizz2{
+    
     text-align: center;
     align-items: center;
     color: #fff;

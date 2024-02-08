@@ -1,5 +1,6 @@
 <template>
-  <div class="at ">
+ <div class="ar">
+  <div class="container at">
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="2000">
       <ol class="carousel-indicators">
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -27,6 +28,7 @@
       </a>
     </div>
   </div>
+ </div>
 </template>
 
 <script>
@@ -36,8 +38,13 @@ export default {
 </script>
 
 <style>
+
+.ar{
+  background: url('../assets/1600_Featured_Games.webp');
+}
 .at {
   margin-top: -140px;
+  background: none;
 }
 
 .carousel-indicators li {
@@ -49,6 +56,7 @@ export default {
   border-radius: 2px;
   flex-grow: 0;
   transition: transform 200ms ease;
-
 }
+
+
 </style>

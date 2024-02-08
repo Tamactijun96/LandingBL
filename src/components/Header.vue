@@ -1,6 +1,6 @@
 <template>
     <div>
-        <nav class="navbar  position-fixed navbar-expand-lg m-2 m-0">
+        <nav class="container navbar position-fixed navbar-expand-lg mt-3 m-0">
             <div class="navbar-bg"></div>
             <!-- Contenido del navbar -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
@@ -62,8 +62,8 @@ export default {
     /* Asegurar posición relativa */
     top: 0px;
     height: 72px;
-    left: 16px;
-    right: 16px;
+    transform: translateX(-50%);
+    left: 50%; 
     z-index: 1000;
 }
 
@@ -120,6 +120,7 @@ button.btn:focus {
 img {
     width: 100px;
     height: 45px;
+    
 }
 
 button {
